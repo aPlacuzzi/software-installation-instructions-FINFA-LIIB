@@ -46,17 +46,13 @@ Ora è necessario aggiungere tale percorso al `Path` di sistema in modo da poter
 
 1. Premere su **"OK"** su tutte le finestre sin qui aperte per confermare le modifiche.
 
-1. Per verificare la corretta configurazione aprire il prompt dei comandi ed eseguire `gcc --help`,
+1. Per verificare la corretta configurazione aprire il prompt dei comandi ed eseguire `gcc --version`,
 verificando che appaia questo output
 ```
-Usage: gcc [options] file...
-Options:
-  -pass-exit-codes         Exit with highest error code from a phase.
-  --help                   Display this information.
-  --target-help            Display target specific command line options.
-  --help={common|optimizers|params|target|warnings|[^]{joined|separate|undocumented}}[,...].
-                           Display specific types of command line options.
-...
+gcc (GCC) 9.2.0
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 ```
 
 ### Installazione e configurazione Notepad++
