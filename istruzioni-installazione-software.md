@@ -46,11 +46,11 @@ Ora è necessario aggiungere tale percorso al `Path` di sistema in modo da poter
 
 1. Premere su **"OK"** su tutte le finestre sin qui aperte per confermare le modifiche.
 
-1. Per verificare la corretta configurazione aprire il prompt dei comandi ed eseguire `gcc -v`,
+1. Per verificare la corretta configurazione aprire il prompt dei comandi ed eseguire `gcc`,
 verificando che non appaia questo output
 ```
-"gcc" non è riconosciuto come comando interno o esterno,
- un programma eseguibile o un file batch.
+gcc: fatal error: no input files
+compilation terminated.
 ```
 
 ### Installazione e configurazione Notepad++
