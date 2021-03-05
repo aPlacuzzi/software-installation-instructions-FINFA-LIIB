@@ -29,16 +29,20 @@ Arrivati a questi punto abbiamo installato il compilatore GCC nel percorso `C:\M
 Ora è necessario aggiungere tale percorso al `Path` di sistema in modo da poterlo usare da linea di comando, come segue:
 
 1. Aprire il menù d'avvio e digitare **"Modifica variabili d'ambiente relative al sistema"**:
-![](./img/win10/env_vars/1.png)
+
+    ![](./img/win10/env_vars/1.png)
 
 1. Cliccando su **Apri** Si aprirà la finestra "Proprietà del sistema":
-![](./img/win10/env_vars/2.png)
+
+    ![](./img/win10/env_vars/2.png)
 
 1. Cliccando sul bottone **"Variabili d'ambiente"** si aprirà la finestra di dialogo, modificare la variabile `Path` (*quella più in basso!*), cliccando sul pulsante **"Modifica"**.
-![](./img/win10/env_vars/3.png)
+
+    ![](./img/win10/env_vars/3.png)
 
 1. Alla lista di percorsi che apparirà, aggiungere la voce `C:\MinGW\bin`:
-![](./img/win10/env_vars/path2.png)
+
+    ![](./img/win10/env_vars/path2.png)
 
 1. Premere su **"OK"** su tutte le finestre sin qui aperte per confermare le modifiche.
 
