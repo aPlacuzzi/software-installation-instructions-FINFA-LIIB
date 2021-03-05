@@ -33,9 +33,9 @@ Ora è necessario aggiungere tale percorso al `Path` di sistema in modo da poter
 
 1. Cliccando su **Apri** Si aprirà la finestra "Proprietà del sistema":
 ![](./img/win10/env_vars/2.png)
-dalla quale sarà necessario cliccare sul bottone **Variabili d'ambiente**.
 
-1. Si aprirà la finestra di dialogo **"Variabili d'ambiente"**, modificare la variabile `Path` (*quella più in basso!*), cliccando sul pulsante **"Modifica"**.
+1. Cliccando sul bottone **"Variabili d'ambiente"** si aprirà la finestra di dialogo, modificare la variabile `Path` (*quella più in basso!*), cliccando sul pulsante **"Modifica"**.
+![](./img/win10/env_vars/3.png)
 
 1. Alla lista di percorsi che apparirà, aggiungere la voce `C:\MinGW\bin`:
 ![](./img/win10/env_vars/path2.png)
