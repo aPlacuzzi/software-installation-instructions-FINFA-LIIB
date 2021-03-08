@@ -1,7 +1,11 @@
 # Istruzioni per installazione software
 
 Il seguente documento fornisce le istruzioni necessarie per installare gli strumenti di sviluppo utilizzati nel contesto del corso di Fondamenti di informatica.
-La guida presenta le procedure di installazione e configurazione su Windows e MacOS X del compilatore GCC relativo editor di testo.
+La guida presenta le procedure di installazione e configurazione su MacOS X e Windows del compilatore GCC relativo editor di testo.
+
+## MacOS X
+
+Su sistemi MacOS X è necessario installare il solo editor **XCode**, scaricabile dall'Apple Store.
 
 ## Windows
 
@@ -20,9 +24,12 @@ I passi per l'installazione sono i seguenti:
 
 1. Quando si apre la finestra di *MinGW Installation Manager* cliccare su `mingw32-base`
 
-1. Selezionare la voce `Mark for Installation` come nell'immagine seguente ![Mark for Installation](./img/win10/mingw-2.png)
+1. Selezionare la voce `Mark for Installation` come nell'immagine seguente
+    ![Mark for Installation](./img/win10/mingw-2.png)
 
-1. Avviare l'installazione con Installation > Apply Changes ![Apply Changes](./img/win10/mingw-3.png)
+1. Avviare l'installazione con Installation > Apply Changes
+
+    ![](./img/win10/mingw-3.png)
     * Apply > attendere il completamento, quindi Close
 
 Arrivati a questi punto abbiamo installato il compilatore GCC nel percorso `C:\MinGW\bin` (percorso di default).
@@ -65,9 +72,4 @@ I passi per l'installazione sono i seguenti:
 
 1. Eseguire l'installer
     * Ok > Accetto > Avanti > Avanti
-    * Selezionare *Create Shortcut on Desktop*, quindi Installa
-    * Avanti
-
-## MacOS X
-
-Su sistemi MacOS X è necessario installare il solo editor **XCode**, scaricabile dall'Apple Store.
+    * Selezionare *Create Shortcut on Desktop*, quindi Installa > Avanti
