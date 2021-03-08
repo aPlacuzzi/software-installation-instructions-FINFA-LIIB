@@ -46,11 +46,13 @@ Ora è necessario aggiungere tale percorso al `Path` di sistema in modo da poter
 
 1. Premere su **"OK"** su tutte le finestre sin qui aperte per confermare le modifiche.
 
-1. Per verificare la corretta configurazione aprire il prompt dei comandi ed eseguire `gcc`,
-verificando che non appaia questo output
+1. Per verificare la corretta configurazione aprire il prompt dei comandi ed eseguire `gcc --version`,
+verificando che appaia questo output
 ```
-gcc: fatal error: no input files
-compilation terminated.
+gcc (GCC) 9.2.0
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 ```
 
 ### Installazione e configurazione Notepad++
