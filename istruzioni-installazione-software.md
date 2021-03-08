@@ -65,3 +65,7 @@ I passi per l'installazione sono i seguenti:
     * Ok > Accetto > Avanti > Avanti
     * Selezionare *Create Shortcut on Desktop*, quindi Installa
     * Avanti
+
+## MacOS X
+
+Su sistemi MacOS X è necessario installare il solo editor **XCode**, scaricabile dall'Apple Store.
